@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter10_magic"
+	group: ""
+	id: "00000000000000AA"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000000000000190A"]
+			id: "0000000000001A00"
+			rewards: [{
+				id: "000000003001A000"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001A000"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A06"]
+			id: "0000000000001A07"
+			rewards: [{
+				id: "000000003001A070"
+				table_id: 3587L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "000000002001A070"
+				item: { count: 1, id: "touhou_little_maid_spell:dream_cat_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001A00"]
+			id: "0000000000001A01"
+			rewards: [{
+				id: "000000003001A010"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001A010"
+					item: { count: 1, id: "touhou_little_maid_spell:rock_crystal" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A011"
+					item: { count: 1, id: "touhou_little_maid_spell:flow_core" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A03"]
+			id: "0000000000001A08"
+			rewards: [{
+				id: "000000003001A080"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "touhou_little_maid_spell:shadow_assassin"
+				id: "000000002001A080"
+				type: "kill"
+				value: 3L
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001A01"]
+			id: "0000000000001A02"
+			rewards: [{
+				id: "000000003001A020"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001A020"
+					item: { count: 1, id: "touhou_little_maid_spell:soul_book" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A021"
+					item: { count: 1, id: "touhou_little_maid_spell:chaos_book" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A03"]
+			id: "0000000000001A09"
+			rewards: [{
+				id: "000000003001A090"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "touhou_little_maid_spell:corrupted_knight"
+				id: "000000002001A090"
+				type: "kill"
+				value: 3L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001A01"]
+			id: "0000000000001A03"
+			rewards: [{
+				id: "000000003001A030"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001A030"
+					item: { count: 1, id: "touhou_little_maid_spell:wound_rime_blade" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A031"
+					item: { count: 1, id: "touhou_little_maid_spell:anchor_core" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A00"]
+			id: "0000000000001A0A"
+			rewards: [{
+				id: "000000003001A0A0"
+				table_id: 3587L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "000000002001A0A0"
+				item: { count: 1, id: "touhou_little_maid_spell:star_meteorite" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001A00"]
+			id: "0000000000001A04"
+			rewards: [{
+				id: "000000003001A040"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "000000002001A040"
+				item: { count: 1, id: "touhou_little_maid_spell:starglint_dagger" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000001A07"
+				"0000000000001A08"
+				"0000000000001A09"
+				"0000000000001A0A"
+			]
+			id: "0000000000001A0B"
+			invisible: true
+			rewards: [
+				{
+					count: 4
+					id: "000000003001A0B0"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "000000003001A0B1"
+					item: {
+						count: 1
+						id: "touhou_little_maid_spell:returning_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "000000002001A0B0"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001A04"]
+			id: "0000000000001A05"
+			rewards: [{
+				id: "000000003001A050"
+				table_id: 3587L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "touhou_little_maid_spell:stellar_witch"
+				id: "000000002001A050"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001A05"]
+			id: "0000000000001A06"
+			rewards: [{
+				id: "000000003001A060"
+				table_id: 3587L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "000000002001A060"
+				item: { count: 1, id: "touhou_little_maid_spell:nebula_core" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

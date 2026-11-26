@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter6_explore"
+	group: ""
+	id: "00000000000000A6"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001601"
+			rewards: [{
+				id: "0000000000003611"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0000000000002611"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "0000000000001602"
+			rewards: [{
+				id: "0000000000003621"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0000000000002621"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001602"]
+			id: "0000000000001603"
+			rewards: [{
+				count: 8
+				id: "0000000000003631"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000002631"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001603"]
+			id: "0000000000001604"
+			rewards: [
+				{
+					id: "0000000000003641"
+					table_id: 3585L
+					type: "random"
+				}
+				{
+					id: "0000000000003642"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0000000000002641"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

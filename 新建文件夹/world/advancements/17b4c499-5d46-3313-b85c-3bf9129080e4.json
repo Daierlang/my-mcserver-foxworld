@@ -1,0 +1,166 @@
+{
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_white": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_blue": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_lime": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_light_gray": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "vinery:recipes/grapevine_lattice": {
+    "criteria": {
+      "has_coal": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_black": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_pink": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_brown": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_light_blue": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_green": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_cyan": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "vinery:main/root": {
+    "criteria": {
+      "seeds": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_purple": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_orange": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_red": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_the_recipe": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "vinery:recipes/campfire": {
+    "criteria": {
+      "has_coal": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:give_smart_slab": {
+    "criteria": {
+      "tick": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_yellow": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_gray": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "brewinandchewin:main/root": {
+    "criteria": {
+      "beer": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "kaleidoscope_world_liquor:recipes/misc/bar_stool_magenta": {
+    "criteria": {
+      "has_iron_ingot": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "vinery:recipes/dark_cherry_planks": {
+    "criteria": {
+      "has_cherry_logs": "2026-11-26 10:06:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-11-26 10:07:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2026-11-26 10:08:45 +0800",
+      "minecraft:river": "2026-11-26 13:58:23 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

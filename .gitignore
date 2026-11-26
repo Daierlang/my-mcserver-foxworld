@@ -1,0 +1,19 @@
+# World data and runtime output
+/world/
+/backups/*
+!/backups/README-BEFORE-RESTORING.txt
+/logs/
+/crash-reports/
+/installer.log
+
+# Per-server player and admin state
+/ops.json
+/whitelist.json
+/banned-ips.json
+/banned-players.json
+/usercache.json
+/usernamecache.json
+
+# Generated NeoForge installation files
+/libraries/
+/neoforge-*-installer.jar

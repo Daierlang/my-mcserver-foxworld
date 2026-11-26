@@ -1,0 +1,109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter2_maid"
+	group: ""
+	id: "00000000000000A2"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001201"
+			rewards: [{
+				id: "0000000000003211"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0000000000002211"
+				item: { count: 1, id: "touhou_little_maid:power_point" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001201"]
+			id: "0000000000001202"
+			rewards: [{
+				id: "0000000000003221"
+				item: {
+					count: 1
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002221"
+				item: { count: 1, id: "touhou_little_maid:hakurei_gohei" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001202"]
+			id: "0000000000001203"
+			rewards: [{
+				id: "0000000000003231"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0000000000002231"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001203"]
+			id: "0000000000001204"
+			rewards: [{
+				id: "0000000000003241"
+				item: {
+					count: 1
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000002241"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001204"]
+			id: "0000000000001205"
+			tasks: [{
+				consume_items: true
+				id: "0000000000002251"
+				item: { count: 1, id: "minecraft:cake" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001205"]
+			id: "0000000000001206"
+			rewards: [{
+				id: "0000000000003261"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000000002261"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}
