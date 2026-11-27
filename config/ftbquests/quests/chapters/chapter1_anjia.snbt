@@ -292,5 +292,45 @@
 			x: 18.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["000000000000110D"]
+			id: "0000000000001112"
+			rewards: [{
+				count: 5
+				id: "0000000030011120"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020011120"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001101"]
+			id: "0000000000001113"
+			rewards: [{
+				count: 3
+				id: "0000000030011130"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000020011130"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
 	]
 }

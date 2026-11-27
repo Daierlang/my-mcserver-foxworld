@@ -256,5 +256,34 @@
 			x: 21.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["0000000000001308"]
+			id: "000000000000130F"
+			rewards: [{
+				count: 2
+				id: "00000000300130F0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200130F0"
+					item: { count: 1, id: "brewinandchewin:flaxen_cheese_wheel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200130F1"
+					item: { count: 1, id: "brewinandchewin:scarlet_cheese_wheel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
 	]
 }

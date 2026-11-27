@@ -207,5 +207,91 @@
 			x: 15.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0000000000001206"]
+			id: "0000000000001210"
+			rewards: [{
+				count: 2
+				id: "0000000030012100"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020012100"
+					item: { count: 1, id: "touhou_little_maid:snack_cabinet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020012101"
+					item: { count: 1, id: "touhou_little_maid:picnic_basket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001210"]
+			id: "0000000000001211"
+			rewards: [{
+				count: 8
+				id: "0000000030012110"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020012110"
+					item: { count: 1, id: "touhou_little_maid:gomoku" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020012111"
+					item: { count: 1, id: "touhou_little_maid:cchess" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001211"]
+			id: "0000000000001212"
+			rewards: [{
+				id: "0000000030012120"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020012120"
+					item: { count: 1, id: "touhou_little_maid:camera" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020012121"
+					item: { count: 1, id: "touhou_little_maid:film" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
 	]
 }

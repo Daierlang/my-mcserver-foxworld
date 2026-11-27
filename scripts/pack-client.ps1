@@ -8,7 +8,8 @@
 #      脚本全部使用 curl.exe（Windows 10+ 自带）下载，不依赖 PowerShell 网络栈。
 #   3. 打包来源:
 #      - mods: 优先从 PCL 版本目录复制现成 jar；缺失项按 client/client-mods-manifest.txt
-#        中的 Modrinth slug 经 API 按 SHA1 下载对应文件
+#        中的 Modrinth slug 经 API 按 SHA1 下载对应文件；来源为「手动下载」的 jar 从
+#        client\manual-mods\（随仓库分发）复制
 #      - 其余: 直接打包 client\ 下的 config / resourcepacks / shaderpacks / options.txt.template
 #
 # 产物结构（zip 内）: mods\ config\ resourcepacks\ shaderpacks\ options.txt
@@ -53,7 +54,12 @@ try {
             Copy-Item -LiteralPath $existing -Destination $dest -Force
             $copy++
         }
-        # 2) Modrinth: 按 SHA1 反查版本文件并下载
+        # 2) client\manual-mods\（随仓库分发的手动下载 jar）
+        elseif (Test-Path -LiteralPath (Join-Path $clientDir 'manual-mods' $name)) {
+            Copy-Item -LiteralPath (Join-Path $clientDir 'manual-mods' $name) -Destination $dest -Force
+            $copy++
+        }
+        # 3) Modrinth: 按 SHA1 反查版本文件并下载
         elseif ($source -match '^Modrinth:\s*(\S+)') {
             $tmpJson = Join-Path $env:TEMP "mr_lookup_$sha1.json"
             curl.exe -s -m 60 -o $tmpJson "https://api.modrinth.com/v2/version_file/$sha1?algorithm=sha1"

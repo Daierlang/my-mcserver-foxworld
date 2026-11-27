@@ -255,5 +255,165 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["0000000000001A02"]
+			id: "0000000000001A0C"
+			rewards: [{
+				count: 2
+				id: "000000003001A0C0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001A0C0"
+					item: { count: 1, id: "touhou_little_maid_spell:arc_cross" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A0C1"
+					item: { count: 1, id: "touhou_little_maid_spell:bleeding_heart" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001A0C"]
+			id: "0000000000001A0D"
+			rewards: [{
+				id: "000000003001A0D0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001A0D0"
+					item: { count: 1, id: "touhou_little_maid_spell:floating_fox_leaf" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A0D1"
+					item: { count: 1, id: "touhou_little_maid_spell:molten_fox_leaf" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001A03"]
+			id: "0000000000001A0E"
+			rewards: [{
+				id: "000000003001A0E0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001A0E0"
+					item: { count: 1, id: "touhou_little_maid_spell:spell_enhancement_core" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A0E1"
+					item: { count: 1, id: "touhou_little_maid_spell:spell_overlimit_core" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001A0E2"
+					item: { count: 1, id: "touhou_little_maid_spell:spell_range_table" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001A07"]
+			id: "0000000000001A10"
+			rewards: [{
+				id: "000000003001A100"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "touhou_little_maid_spell:the_retreat"
+				id: "000000002001A100"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001A10"]
+			id: "0000000000001A11"
+			rewards: [{
+				id: "000000003001A110"
+				table_id: 3587L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "000000002001A110"
+					structure: "touhou_little_maid_spell:starfall_garden"
+					type: "structure"
+				}
+				{
+					id: "000000002001A111"
+					structure: "touhou_little_maid_spell:starwatch_tower"
+					type: "structure"
+				}
+				{
+					id: "000000002001A112"
+					structure: "touhou_little_maid_spell:stellar_endshore"
+					type: "structure"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0000000000001A0C"
+				"0000000000001A0D"
+				"0000000000001A0E"
+			]
+			id: "0000000000001A0F"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "000000003001A0F0"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "000000002001A0F0"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
 	]
 }

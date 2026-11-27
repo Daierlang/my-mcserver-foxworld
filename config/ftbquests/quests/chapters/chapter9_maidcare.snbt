@@ -258,5 +258,113 @@
 			x: 18.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0000000000001906"]
+			id: "000000000000190E"
+			rewards: [{
+				id: "00000000300190E0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200190E0"
+					item: { count: 1, id: "touhou_little_maid:drown_protect_bauble" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200190E1"
+					item: { count: 1, id: "touhou_little_maid:fall_protect_bauble" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200190E2"
+					item: { count: 1, id: "touhou_little_maid:magic_protect_bauble" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200190E3"
+					item: { count: 1, id: "touhou_little_maid:substitute_jizo" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000190E"]
+			id: "000000000000190F"
+			rewards: [{
+				count: 2
+				id: "00000000300190F0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200190F0"
+					item: { count: 1, id: "touhou_little_maid:nimble_fabric" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200190F1"
+					item: { count: 1, id: "touhou_little_maid:item_magnet_bauble" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000190F"]
+			id: "0000000000001910"
+			rewards: [{
+				id: "0000000030019100"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020019100"
+				item: { count: 1, id: "touhou_little_maid:mute_bauble" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001904"]
+			id: "0000000000001911"
+			rewards: [{
+				count: 8
+				id: "0000000030019110"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000020019110"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
 	]
 }

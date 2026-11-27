@@ -478,5 +478,229 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["0000000000001808"]
+			id: "000000000000180C"
+			rewards: [{
+				count: 2
+				id: "00000000300180C0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200180C0"
+					item: { count: 1, id: "kaleidoscope_world_liquor:absolut_vodka" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180C1"
+					item: { count: 1, id: "kaleidoscope_world_liquor:jack_daniel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180C2"
+					item: { count: 1, id: "kaleidoscope_world_liquor:bombay_sapphire_gin" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180C3"
+					item: { count: 1, id: "kaleidoscope_world_liquor:bacardi_carta_blanca" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180C4"
+					item: { count: 1, id: "kaleidoscope_world_liquor:dassai" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180C5"
+					item: { count: 1, id: "kaleidoscope_world_liquor:bamboo_leaf_green_liquor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001807"]
+			id: "000000000000180D"
+			rewards: [{
+				count: 2
+				id: "00000000300180D0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200180D0"
+					item: { count: 1, id: "kaleidoscope_world_liquor:shrimp_cocktail" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180D1"
+					item: { count: 1, id: "kaleidoscope_world_liquor:pina_colada" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180D2"
+					item: { count: 1, id: "kaleidoscope_world_liquor:gin_tonic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180D3"
+					item: { count: 1, id: "kaleidoscope_world_liquor:around_the_world" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180D4"
+					item: { count: 1, id: "kaleidoscope_world_liquor:highball" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001807"]
+			id: "000000000000180E"
+			rewards: [{
+				count: 2
+				id: "00000000300180E0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200180E0"
+					item: { count: 1, id: "kaleidoscope_tavern:bloody_mary" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180E1"
+					item: { count: 1, id: "kaleidoscope_tavern:godfather" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180E2"
+					item: { count: 1, id: "kaleidoscope_tavern:emerald" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180E3"
+					item: { count: 1, id: "kaleidoscope_tavern:brass_heart" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000180E"]
+			id: "000000000000180F"
+			rewards: [{
+				id: "00000000300180F0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200180F0"
+					item: { count: 1, id: "kaleidoscope_tavern:depth_charge" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180F1"
+					item: { count: 1, id: "kaleidoscope_tavern:nether_special" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180F2"
+					item: { count: 1, id: "kaleidoscope_tavern:sculk_special" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180F3"
+					item: { count: 1, id: "kaleidoscope_tavern:allium_garden" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180F4"
+					item: { count: 1, id: "kaleidoscope_tavern:signature_cocktail" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"000000000000180C"
+				"000000000000180D"
+				"000000000000180E"
+				"000000000000180F"
+			]
+			id: "0000000000001810"
+			invisible: true
+			rewards: [
+				{
+					count: 4
+					id: "0000000030018100"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000030018101"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0000000020018100"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
 	]
 }

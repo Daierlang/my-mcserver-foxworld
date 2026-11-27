@@ -419,5 +419,58 @@
 			x: 6.0d
 			y: 12.0d
 		}
+		{
+			dependencies: ["0000000000001C06"]
+			id: "0000000000001C0F"
+			rewards: [{
+				id: "000000003001C0F0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000002001C0F0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0000000000001C01"]
+			id: "0000000000001C10"
+			rewards: [{
+				count: 8
+				id: "000000003001C100"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C100"
+					item: { count: 1, id: "kaleidoscope_tavern:watermelon_juice" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C101"
+					item: { count: 1, id: "kaleidoscope_world_liquor:cola" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C102"
+					item: { count: 1, id: "kaleidoscope_world_liquor:sour_plum" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 15.0d
+		}
 	]
 }
