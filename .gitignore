@@ -17,3 +17,30 @@
 # Generated NeoForge installation files
 /libraries/
 /neoforge-*-installer.jar
+
+# Mod jars are large and numerous; tracked instead via mods-manifest.txt (see README.md)
+/mods/
+
+# TLM AI sites config may contain API keys; use llm.json.template to restore
+config/touhou_little_maid/sites/llm.json
+# ---------- 客户端整合包 (client/) ----------
+# 客户端内容入 Git；仅排除运行时生成的缓存/临时目录
+client/config/**/*cache*/
+client/config/**/*Cache*/
+client/config/**/*temp*/
+client/config/**/*tmp*/
+client/config/**/*logs*/
+client/mods_disabled/
+client/PCL/
+client/.cache/
+client/.voxy/
+client/data/
+client/debug/
+client/downloads/
+client/journeymap/
+client/saves/
+client/libs/
+
+# 本地一键打包产物
+/dist/
+

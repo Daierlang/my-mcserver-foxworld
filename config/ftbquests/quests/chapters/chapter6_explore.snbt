@@ -333,5 +333,20 @@
 			x: 18.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "0000000000001605"
+			rewards: [{
+				id: "0000000000003651"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0000000000002651"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
 	]
 }

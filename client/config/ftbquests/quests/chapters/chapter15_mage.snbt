@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter15_mage"
+	group: ""
+	id: "00000000000000AF"
+	images: [ ]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001F01"
+			rewards: [{
+				id: "000000003001F010"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001F010"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F01"]
+			id: "0000000000001F02"
+			rewards: [{
+				id: "000000003001F020"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "000000002001F020"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F02"]
+			id: "0000000000001F03"
+			rewards: [{
+				id: "000000003001F030"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001F030"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F03"]
+			id: "0000000000001F04"
+			rewards: [{
+				id: "000000003001F040"
+				table_id: 3587L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "000000002001F040"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F04"]
+			id: "0000000000001F05"
+			rewards: [{
+				id: "000000003001F050"
+				table_id: 3587L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "000000002001F050"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001F05"]
+			id: "0000000000001F06"
+			rewards: [
+				{
+					id: "000000003001F060"
+					table_id: 3587L
+					type: "random"
+				}
+				{
+					id: "000000003001F061"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "000000002001F060"
+				item: { count: 1, id: "irons_spellbooks:furled_map_citadel" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}

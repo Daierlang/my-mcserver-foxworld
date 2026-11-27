@@ -1,0 +1,64 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter13_calendar"
+	group: ""
+	id: "00000000000000AD"
+	images: [ ]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001D01"
+			rewards: [{
+				id: "000000003001D010"
+				item: {
+					count: 1
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "000000002001D010"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001D01"]
+			id: "0000000000001D02"
+			shape: "gear"
+			tasks: [{
+				id: "000000002001D020"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001D02"]
+			id: "0000000000001D03"
+			shape: "gear"
+			tasks: [{
+				id: "000000002001D030"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001D03"]
+			id: "0000000000001D04"
+			shape: "gear"
+			tasks: [{
+				id: "000000002001D040"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

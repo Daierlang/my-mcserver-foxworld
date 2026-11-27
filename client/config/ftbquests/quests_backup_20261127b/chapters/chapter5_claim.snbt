@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter5_claim"
+	group: ""
+	id: "00000000000000A5"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001501"
+			tasks: [{
+				id: "0000000000002511"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001504"]
+			id: "0000000000001509"
+			rewards: [{
+				id: "0000000030015090"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020015090"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001501"]
+			id: "0000000000001502"
+			rewards: [{
+				id: "0000000000003521"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0000000000002521"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001509"]
+			id: "000000000000150A"
+			rewards: [{
+				id: "00000000300150A0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200150A0"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001502"]
+			id: "0000000000001503"
+			tasks: [{
+				id: "0000000000002531"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001501"]
+			id: "0000000000001504"
+			rewards: [{
+				count: 2
+				id: "0000000000003541"
+				item: {
+					count: 1
+					id: "waystones:return_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000002541"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001504"]
+			id: "0000000000001505"
+			tasks: [{
+				consume_items: false
+				id: "0000000000002551"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001505"]
+			id: "0000000000001506"
+			rewards: [{
+				id: "0000000000003561"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002561"
+				item: { count: 1, id: "waystones:warp_scroll" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter9_maidcare"
+	group: ""
+	id: "00000000000000A9"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000001206"]
+			id: "0000000000001901"
+			rewards: [{
+				id: "0000000030019010"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020019010"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "0000000000001907"
+			rewards: [{
+				id: "0000000030019070"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020019070"
+				item: { count: 1, id: "touhou_little_maid_spell:hairpin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "0000000000001902"
+			rewards: [{
+				id: "0000000030019020"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020019020"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001907"]
+			id: "0000000000001908"
+			rewards: [{
+				id: "0000000030019080"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020019080"
+					item: { count: 1, id: "touhou_little_maid_spell:fragrant_ingenuity" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020019081"
+					item: { count: 1, id: "touhou_little_maid_spell:ender_pocket" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "0000000000001903"
+			rewards: [{
+				id: "0000000030019030"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020019030"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001907"]
+			id: "0000000000001909"
+			rewards: [{
+				id: "0000000030019090"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020019090"
+					item: { count: 1, id: "touhou_little_maid_spell:quick_chant_ring" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020019091"
+					item: { count: 1, id: "touhou_little_maid_spell:spring_ring" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "0000000000001904"
+			rewards: [{
+				id: "0000000030019040"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020019040"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001907"]
+			id: "000000000000190A"
+			rewards: [{
+				id: "00000000300190A0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200190A0"
+				item: { count: 1, id: "touhou_little_maid_spell:wind_seeking_bell" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "0000000000001905"
+			rewards: [{
+				id: "0000000030019050"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020019050"
+					item: { count: 1, id: "touhou_little_maid:maid_backpack_middle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020019051"
+					item: { count: 1, id: "touhou_little_maid:crafting_table_backpack" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000190A"]
+			id: "000000000000190B"
+			rewards: [{
+				id: "00000000300190B0"
+				table_id: 3586L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00000000200190B0"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "0000000000001906"
+			rewards: [{
+				id: "0000000030019060"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020019060"
+					item: { count: 1, id: "touhou_little_maid:fire_protect_bauble" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020019061"
+					item: { count: 1, id: "touhou_little_maid:projectile_protect_bauble" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001901"]
+			id: "000000000000190C"
+			rewards: [{
+				id: "00000000300190C0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200190C0"
+				item: { count: 1, id: "touhou_little_maid_spell:suppression_stone" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0000000000001902"
+				"0000000000001903"
+				"0000000000001904"
+				"0000000000001905"
+				"0000000000001906"
+				"0000000000001908"
+			]
+			id: "000000000000190D"
+			rewards: [{
+				id: "00000000300190D0"
+				table_id: 3586L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00000000200190D0"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+	]
+}

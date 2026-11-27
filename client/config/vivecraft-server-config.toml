@@ -1,0 +1,224 @@
+#通用服务端设置
+[general]
+	#记录客户端的Vivecraft安装情况，以及Vivecraft版本。
+	debug = false
+	#当管理员登陆服务器时，向他们发送Vivecraft更新信息。
+	checkForUpdate = true
+	#检查哪种类型的更新。
+	# r: 正式版, b: Beta 版, a: Alpha 版
+	checkForUpdateType = "r"
+	#设置为 'true' 将会只允许VR玩家加入服务器。
+	# 如果启用，VR热切换会被禁用。
+	vr_only = false
+	#设置为'true' 将会只允许安装了Vivecraft的玩家加入服务器。
+	vive_only = false
+	#Minimum Vivecraft Version that is allowed to join the Server.
+	# If a player joins with a lower version, they will be kicked.
+	# Format should be: X.X.X
+	minViveVersion = ""
+	#设置为 'true' 将会允许管理员强制调整仅VR/Vivecraft设置。
+	allow_op = true
+	#踢出玩家或发送欢迎消息前的等待秒数。
+	# 玩家的客户端必须在此时间内发送Vivecraft版本信息。
+	# default: 10.00, min: 0.00, max: 100.00
+	messageAndKickDelay = 10.0
+	#当VR玩家重生时，随机给予他们有趣的蛋糕和饮料(南瓜饼和水瓶，吃了会变大，喝了会变小)。
+	vrFun = true
+	#将玩家发送的位置数据发回该玩家，通常无需启用。
+	# 在服务器上使用Replay模组或类似工具时请启用此功能。
+	sendDataToOwner = false
+	#Kicks players on setting changes, if they don't support updating that setting on the fly. So it forces a rejoin.
+	kickPlayersOnSettingUpdate = false
+
+#设置玩家执行特定操作时发送的消息。
+#将消息设置为空则不发送。 例如, leaveMessage = ""
+# 玩家名称用 '%s' 表示。
+# 对于需要两个占位符的消息（例如，被生物杀死），使用'%1$s'表示玩家名称，'%2$s'表示第二个占位符。
+[messages]
+	#启用或禁用所有消息。
+	enabled = false
+	#玩家启用VR时加入服务器时发送的消息。
+	welcomeVR = "&player has joined with standing VR!"
+	#玩家未启用VR时加入服务器时发送的消息。
+	welcomeNonVR = "&player has joined with Non-VR companion!"
+	#玩家以就座模式加入服务器时发送的消息。
+	welcomeSeated = "&player has joined with seated VR!"
+	#玩家未安装Vivecraft时加入服务器时发送的消息。
+	welcomeVanilla = "&player has joined as a Muggle!"
+	#玩家离开服务器时发送的消息。
+	leaveMessage = "&player has disconnected from the server!"
+	#玩家启用VR时死亡时发送的消息。
+	deathVR = "&player died in standing VR!"
+	#玩家以非VR模式死亡时发送的消息。
+	deathNonVR = "&player died in Non-VR companion!"
+	#玩家以就座模式死亡时发送的消息。
+	deathSeated = "&player died in seated VR!"
+	#玩家未安装Vivecraft时死亡时发送的消息。
+	deathVanilla = "&player died as a Muggle!"
+	#玩家启用VR时被生物杀死时发送的消息。
+	deathByMobVR = "&player was slain by &cause in standing VR!"
+	#玩家未启用VR时被生物杀死时发送的消息。
+	deathByMobNonVR = "&player was slain by &cause in Non-VR companion!"
+	#玩家以就座模式被生物杀死时发送的消息。
+	deathByMobSeated = "&player was slain by &cause in seated VR!"
+	#玩家未安装Vivecraft时被生物杀死时发送的消息。
+	deathByMobVanilla = "&player was slain by &cause as a Muggle!"
+	#玩家因'仅Vivecraft'设置被踢出时发送的消息。
+	KickViveOnly = "This server is configured for Vivecraft players only."
+	#玩家因'仅VR'设置被踢出时发送的消息。
+	KickVROnly = "This server is configured for VR players only."
+	#Message sent to a player when they get kicked because of the 'Minimum Vivecraft Version' setting.
+	# Use '&minVersion' to access the required Vivecraft version. 
+	# Use '&userVersion' to access the users Vivecraft version.
+	KickOutdatedViveVersion = "This server is configured to only allow Vivecraft '&minVersion' and newer. You are using Vivecraft '&userVersion'"
+
+#VR玩家原版设置
+[vrChanges]
+	#站立模式VR玩家触发苦力怕膨胀和爆炸的距离。
+	# 默认: 3
+	# default: 1.75, min: 0.10, max: 10.00
+	creeperSwellDistance = 1.75
+	#调整生物可以对站立模式VR玩家进行近战攻击的范围。
+	# 该值默认比原版距离 (0.8 个方块) 小, 所以 0.0 表示不变, -0.7 表示生物几乎要和玩家贴贴才能攻击。
+	# 如果设置的非常低，生物有可能站在玩家面前而无法攻击！
+	# default: -0.40, min: -0.70, max: 0.00
+	mobAttackRangeAdjustment = -0.4
+	#允许VR玩家使用非惯用手物品进行攻击/挖掘。
+	dualWielding = true
+	#VR玩家踢踹攻击时的近战伤害加成。
+	# 此加成随靴子的护甲属性缩放，每级护甲额外造成一点伤害，乘以这个值。
+	# 设置为0.0以禁用。
+	# default: 0.00, min: 0.00, max: 5.00
+	bootsArmorDamage = 0.0
+	#默认情况下，弹射物有散布，防止它们都打在一个点上。
+	# 通过此设置，可以调整VR玩家的弹射物散布。
+	# 1.0为默认，0.0为指哪打哪。
+	# default: 1.00, min: 0.00, max: 1.00
+	projectileInaccuracyMultiplier = 1.0
+	#允许VR玩家绕过原版的方块破坏检测（用于检测玩家是否挖掘过快）。
+	allowFasterBlockBreaking = true
+	#允许VR玩家通过举起盾牌来格挡攻击，而无需主动使用。这意味着他们可以在不减速的情况下格挡攻击。
+	allowRoomscaleShieldBlocking = true
+	#Number of ticks a shield is set on cooldown for, when it is used to block something with Roomscale Shield Blocking.
+	# Set to 0 to disable.
+	# default: 0, min: 0, max: 1000
+	roomscaleShieldCooldown = 0
+	#Minimum damage an attack has to have, to set a shield on cooldown when used for Roomscale Shield Blocking.
+	# default: 3.00, min: 0.00, max: 100.00
+	roomscaleShieldCooldownDamageTrigger = 3.0
+	#允许VR玩家在使用盾牌时攻击实体。（此设置不影响举盾格挡）
+	allowAttacksWhileBlocking = true
+
+	#弓箭伤害调整
+	[vrChanges.bow]
+		#站立模式VR玩家的弓箭伤害乘数。
+		# 设置为1.0以禁用。
+		# default: 2.00, min: 1.00, max: 10.00
+		standingMultiplier = 2.0
+		#就座模式VR玩家的弓箭伤害乘数。
+		# 设置为1.0以禁用。
+		# default: 1.00, min: 1.00, max: 10.00
+		seatedMultiplier = 1.0
+		#站立模式VR玩家的弓箭暴击伤害乘数。
+		# 设置为1.0以禁用。
+		# default: 3.00, min: 1.00, max: 10.00
+		standingHeadshotMultiplier = 3.0
+		#就座模式VR玩家的弓箭暴击伤害乘数。
+		# 设置为1.0以禁用。
+		# default: 2.00, min: 1.00, max: 10.00
+		seatedHeadshotMultiplier = 2.0
+		#原版/非VR玩家的弓箭暴击伤害乘数。
+		# 设置为1.0以禁用。
+		# default: 1.00, min: 1.00, max: 10.00
+		vanillaHeadshotMultiplier = 1.0
+		#弓箭暴击指示器. 可选项:
+		# "NONE": 无。
+		# "AUDIO": 播放音效。
+		# "VISUAL": 在攻击位置生成粒子特效。
+		# "BOTH": 两者均有。
+		headshotIndicator = "BOTH"
+
+#PVP设置
+[pvp]
+	#通知玩家造成了被服务器阻止的无效伤害。
+	notifyBlockedDamage = false
+	#允许站立模式VR玩家互相造成伤害。
+	VRvsVR = true
+	#允许就座模式VR玩家互相造成伤害。
+	SEATEDVRvsSEATEDVR = true
+	#允许站立模式VR玩家与非VR玩家互相造成伤害。
+	VRvsNONVR = true
+	#允许就座模式VR玩家与非VR玩家互相造成伤害。
+	SEATEDVRvsNONVR = true
+	#允许站立/就座模式VR玩家互相造成伤害。
+	VRvsSEATEDVR = true
+
+#攀爬设置
+[climbey]
+	#允许使用 '弹跳靴' 和 '攀岩爪'。
+	enabled = true
+	#启用后，当使用攀岩爪悬在空中或使用弹跳靴跳跃时，会消耗饥饿值。
+	foodExhaustion = true
+	#指定如何解释方块列表中的方块。选项有:
+	# "禁用": 忽略，所有方块均可攀爬。
+	# "白名单": 只有位于列表中的方块可攀爬。
+	# "黑名单": 方块列表中的方块不可攀爬，其余均可。
+	blockmode = "DISABLED"
+	#用于白名单/黑名单方块模式的方块名称列表。
+	# 方块可以是原版形式的'blockid'或模组形式的'modid:blockid'。
+	blocklist = ["white_wool", "dirt", "grass_block"]
+
+#爬行设置
+[crawling]
+	#允许VR玩家通过降低姿态（弯腰）进入爬行状态。禁用不会阻止原版爬行。
+	enabled = true
+
+#传送设置
+[teleport]
+	#允许玩家使用传送移动。建议为晕动症玩家启用。
+	# 关闭后只会对 Vivecraft 1.3.0+ 客户端生效。
+	enabled = true
+	#启用后，向上传送会消耗饥饿值。
+	foodExhaustion = false
+	#生存模式下限制传送的范围和频率。
+	limitedSurvival = false
+	#生存模式下玩家可以向上传送的最大方块数。设置为0以禁用。
+	# default: 4, min: 1, max: 16
+	upLimit = 4
+	#生存模式下玩家可以向下传送的最大方块数。设置为0以禁用。
+	# default: 4, min: 1, max: 16
+	downLimit = 4
+	#生存模式下玩家可以水平传送的最大方块数。设置为0以禁用。
+	# default: 16, min: 1, max: 32
+	horizontalLimit = 16
+
+#世界大小设置
+[worldScale]
+	#限制玩家允许使用的世界缩放比例范围。
+	limitRange = false
+	#缩放下限
+	# default: 0.50, min: 0.10, max: 100.00
+	min = 0.5
+	#缩放上限
+	# default: 2.00, min: 0.10, max: 100.00
+	max = 2.0
+
+#其它客户端设置
+[settingOverrides]
+	#强制玩家使用'第三人称物品渲染'。
+	thirdPersonItems = false
+	#强制玩家使用'第三人称自定义物品渲染'。只对自定义物品模型和mod物品生效。
+	thirdPersonItemsCustom = false
+
+#VR热切换设置
+[vrSwitching]
+	#允许玩家在VR和非VR之间实时切换。
+	# 如果禁用，玩家只能保持加入服务器时的模式。
+	enabled = true
+
+#调试设置
+[debug]
+	#在VR玩家的设备位置生成粒子效果来指示服务器VR数据状态。
+	debugParticles = false
+	#在VR玩家的头部生成粒子效果来指示服务器VR数据状态。
+	debugParticlesHead = false

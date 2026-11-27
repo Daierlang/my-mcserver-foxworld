@@ -1,0 +1,8 @@
+#固定赠酒冷却（游戏日，1-7）。0 = 使用档位默认值（8 - 档位）。
+#Fixed gift cooldown in in-game days (1-7). 0 = use the tier default (8 - tier).
+# Default: 0
+# Range: 0 ~ 7
+cooldownDaysOverride = 0
+#每次点击女仆尝试领酒时输出一行日志（含女仆 UUID / 档位 / 今日 / 可领日）。
+#Log every gift attempt (maid uuid, tier, current day, ready day).
+logGiftAttempts = true

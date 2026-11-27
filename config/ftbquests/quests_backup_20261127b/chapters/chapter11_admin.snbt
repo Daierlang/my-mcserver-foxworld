@@ -1,0 +1,50 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter11_admin"
+	group: ""
+	id: "00000000000000AB"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001B00"
+			tasks: [{
+				id: "000000002001B000"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001B00"]
+			id: "0000000000001B01"
+			tasks: [{
+				id: "000000002001B010"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "0000000000001B02"
+			tasks: [{
+				id: "000000002001B020"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "0000000000001B03"
+			tasks: [{
+				id: "000000002001B030"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

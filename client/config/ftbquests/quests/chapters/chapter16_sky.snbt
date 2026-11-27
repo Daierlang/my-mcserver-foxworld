@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter16_sky"
+	group: ""
+	id: "00000000000000B0"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000002001"
+			rewards: [{
+				id: "0000000030012000"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020012000"
+				item: { count: 1, id: "immersive_aircraft:hull" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000002001"]
+			id: "0000000000002002"
+			rewards: [{
+				id: "0000000030012010"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020012010"
+					item: { count: 1, id: "immersive_aircraft:sail" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020012011"
+					item: { count: 1, id: "immersive_aircraft:propeller" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000002002"]
+			id: "0000000000002003"
+			rewards: [{
+				id: "0000000030012020"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020012020"
+					item: { count: 1, id: "immersive_aircraft:boiler" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020012021"
+					item: { count: 1, id: "immersive_aircraft:engine" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000002003"]
+			id: "0000000000002004"
+			rewards: [{
+				id: "0000000030012030"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020012030"
+					item: { count: 1, id: "immersive_aircraft:airship" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020012031"
+					item: { count: 1, id: "immersive_aircraft:biplane" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000002004"]
+			id: "0000000000002005"
+			rewards: [{
+				id: "0000000030012040"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020012040"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000002005"]
+			id: "0000000000002006"
+			rewards: [
+				{
+					id: "0000000030012050"
+					table_id: 3587L
+					type: "random"
+				}
+				{
+					id: "0000000030012051"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				biome: "terralith:skylands_summer"
+				id: "0000000020012050"
+				type: "biome"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}

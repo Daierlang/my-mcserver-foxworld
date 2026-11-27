@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter3_brew"
+	group: ""
+	id: "00000000000000A3"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001301"
+			tasks: [{
+				consume_items: false
+				id: "0000000000002311"
+				item: { count: 1, id: "vinery:red_grape" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001302"]
+			id: "0000000000001309"
+			rewards: [{
+				id: "0000000030013090"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020013090"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001301"]
+			id: "0000000000001302"
+			rewards: [{
+				id: "0000000000003321"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002321"
+				item: { count: 1, id: "vinery:red_grapejuice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001305"]
+			id: "000000000000130A"
+			rewards: [{
+				id: "00000000300130A0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200130A0"
+				item: { count: 1, id: "kaleidoscope_tavern:champagne" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001302"]
+			id: "0000000000001303"
+			rewards: [{
+				count: 2
+				id: "0000000000003331"
+				item: {
+					count: 1
+					id: "vinery:apple_juice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002331"
+				item: { count: 1, id: "vinery:fermentation_barrel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001305"]
+			id: "000000000000130B"
+			rewards: [{
+				id: "00000000300130B0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200130B0"
+				item: { count: 1, id: "kaleidoscope_tavern:vodka" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001301"]
+			id: "0000000000001304"
+			tasks: [{
+				consume_items: false
+				id: "0000000000002341"
+				item: { count: 1, id: "kaleidoscope_tavern:grapevine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001305"]
+			id: "000000000000130C"
+			rewards: [{
+				id: "00000000300130C0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200130C0"
+				item: { count: 1, id: "kaleidoscope_tavern:mystery_cocktail" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001304"]
+			id: "0000000000001305"
+			rewards: [{
+				count: 2
+				id: "0000000000003351"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002351"
+				item: { count: 1, id: "kaleidoscope_tavern:barrel" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001305"]
+			id: "000000000000130D"
+			rewards: [{
+				id: "00000000300130D0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200130D0"
+					item: { count: 1, id: "kaleidoscope_tavern:shaker" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200130D1"
+					item: { count: 1, id: "kaleidoscope_tavern:empty_glassware" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001305"]
+			id: "0000000000001306"
+			tasks: [{
+				id: "0000000000002361"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001307"]
+			id: "000000000000130E"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "00000000300130E0"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00000000300130E1"
+					item: {
+						count: 1
+						id: "waystones:return_scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000200130E0"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001306"]
+			id: "0000000000001307"
+			rewards: [{
+				id: "0000000000003371"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002371"
+				item: { count: 1, id: "kaleidoscope_tavern:wine" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001303"]
+			id: "0000000000001308"
+			rewards: [{
+				id: "0000000000003381"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000000002381"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+}

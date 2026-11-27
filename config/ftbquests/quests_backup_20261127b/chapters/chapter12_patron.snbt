@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter12_patron"
+	group: ""
+	id: "00000000000000AC"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001C01"
+			rewards: [{
+				id: "000000003001C010"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001C010"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001C01"]
+			id: "0000000000001C02"
+			rewards: [{
+				count: 8
+				id: "000000003001C020"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C020"
+					item: { count: 1, id: "kaleidoscope_tavern:wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C021"
+					item: { count: 1, id: "kaleidoscope_tavern:champagne" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C022"
+					item: { count: 1, id: "kaleidoscope_tavern:sakura_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C023"
+					item: { count: 1, id: "kaleidoscope_tavern:honey_wine" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001C02"]
+			id: "0000000000001C03"
+			rewards: [{
+				count: 2
+				id: "000000003001C030"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C030"
+					item: { count: 1, id: "kaleidoscope_tavern:ice_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C031"
+					item: { count: 1, id: "kaleidoscope_tavern:plum_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C032"
+					item: { count: 1, id: "kaleidoscope_tavern:red_queen" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C033"
+					item: { count: 1, id: "kaleidoscope_tavern:miners_star" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001C03"]
+			id: "0000000000001C04"
+			rewards: [{
+				id: "000000003001C040"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C040"
+					item: { count: 1, id: "kaleidoscope_tavern:sunset_glow" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C041"
+					item: { count: 1, id: "kaleidoscope_tavern:madame_shexiang" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C042"
+					item: { count: 1, id: "kaleidoscope_tavern:mother_snow" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C043"
+					item: { count: 1, id: "kaleidoscope_tavern:luminous_bride" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C044"
+					item: { count: 1, id: "kaleidoscope_tavern:glowflower_brew" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C045"
+					item: { count: 1, id: "kaleidoscope_tavern:carignan" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001C01"]
+			id: "0000000000001C05"
+			rewards: [{
+				count: 4
+				id: "000000003001C050"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C050"
+					item: { count: 1, id: "kaleidoscope_cookery:braised_beef" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C051"
+					item: { count: 1, id: "kaleidoscope_cookery:egg_fried_rice" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0000000000001C04"
+				"0000000000001C05"
+			]
+			id: "0000000000001C06"
+			rewards: [{
+				id: "000000003001C060"
+				table_id: 3586L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "000000002001C060"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001C01"]
+			id: "0000000000001C07"
+			rewards: [{
+				count: 8
+				id: "000000003001C070"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000002001C070"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001C07"]
+			id: "0000000000001C08"
+			rewards: [{
+				id: "000000003001C080"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000002001C080"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001C08"]
+			id: "0000000000001C09"
+			rewards: [{
+				id: "000000003001C090"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000002001C090"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001C01"]
+			id: "0000000000001C0A"
+			rewards: [{
+				count: 2
+				id: "000000003001C0A0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000002001C0A0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0000000000001C04"
+				"0000000000001C06"
+			]
+			id: "0000000000001C0B"
+			invisible: true
+			rewards: [
+				{
+					count: 4
+					id: "000000003001C0B0"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "000000003001C0B1"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "000000002001C0B0"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001C01"]
+			id: "0000000000001C0C"
+			rewards: [{
+				count: 4
+				id: "000000003001C0C0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C0C0"
+					item: { count: 1, id: "jiuhu_jianiang:lixia_chun" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C0C1"
+					item: { count: 1, id: "jiuhu_jianiang:dengxia_ying" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000001C0C"]
+			id: "0000000000001C0D"
+			rewards: [{
+				count: 2
+				id: "000000003001C0D0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C0D0"
+					item: { count: 1, id: "jiuhu_jianiang:muzhao_niang" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C0D1"
+					item: { count: 1, id: "jiuhu_jianiang:gongying_chun" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C0D2"
+					item: { count: 1, id: "jiuhu_jianiang:jingnian_shuang" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000001C0D"]
+			id: "0000000000001C0E"
+			rewards: [
+				{
+					id: "000000003001C0E0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+				{
+					id: "000000003001C0E1"
+					table_id: 3586L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "000000002001C0E0"
+					item: { count: 1, id: "jiuhu_jianiang:changxiangsi" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C0E1"
+					item: { count: 1, id: "jiuhu_jianiang:wuwangwo" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000000002001C0E2"
+					item: { count: 1, id: "jiuhu_jianiang:wine_list" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+	]
+}

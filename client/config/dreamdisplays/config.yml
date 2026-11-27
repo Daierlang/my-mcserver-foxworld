@@ -1,0 +1,16 @@
+mute-on-alt-tab: false
+default-render-distance: 96
+default-default-display-volume: 0.5
+displays-enabled: true
+ytdlp-cookies-from-browser: none
+ytdlp-proxy: ''
+ytdlp-js-runtime: auto
+use-hw-accel: true
+unshaded-displays: true
+audio-acoustics: advanced
+audio-output-profile: headphones
+audio-normalization: true
+new-display-volume: 0.25
+new-display-quality: 1080
+display-distance-chunks: 0
+max-active-displays: 0

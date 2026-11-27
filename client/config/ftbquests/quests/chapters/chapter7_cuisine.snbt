@@ -1,0 +1,330 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter7_cuisine"
+	group: ""
+	id: "00000000000000A7"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001701"
+			rewards: [{
+				id: "0000000030017010"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017010"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017011"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "0000000000001707"
+			rewards: [{
+				id: "0000000030017070"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0000000020017070"
+					item: { count: 1, id: "kaleidoscope_cookery:flour" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0000000020017071"
+					item: { count: 1, id: "kaleidoscope_cookery:raw_dough" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "000000000000170D"
+			rewards: [{
+				count: 2
+				id: "00000000300170D0"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "00000000200170D0"
+				item: { count: 1, id: "kaleidoscope_cookery:buddha_jumps_over_the_wall" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001702"
+			rewards: [{
+				id: "0000000030017020"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017020"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017021"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001707"]
+			id: "0000000000001708"
+			rewards: [{
+				id: "0000000030017080"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020017080"
+				item: { count: 1, id: "kaleidoscope_cookery:baozi" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001702"]
+			id: "000000000000170E"
+			rewards: [{
+				id: "00000000300170E0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200170E0"
+				item: { count: 1, id: "brewinandchewin:kimchi" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001703"
+			rewards: [{
+				id: "0000000030017030"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0000000020017030"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0000000020017031"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0000000020017032"
+					item: { count: 1, id: "farmersdelight:rice_panicle" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "0000000000001709"
+			rewards: [{
+				id: "0000000030017090"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0000000020017090"
+					item: { count: 1, id: "kaleidoscope_cookery:tea_seed" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017091"
+					item: { count: 1, id: "kaleidoscope_cookery:dried_tea_leaves" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0000000000001708"
+				"000000000000170C"
+				"000000000000170D"
+				"000000000000170E"
+			]
+			id: "000000000000170F"
+			rewards: [{
+				id: "00000000300170F0"
+				table_id: 3586L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "00000000200170F0"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001702"]
+			id: "0000000000001704"
+			rewards: [{
+				id: "0000000030017040"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020017040"
+				item: { count: 1, id: "farmersdelight:beef_stew" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001709"]
+			id: "000000000000170A"
+			rewards: [{
+				id: "00000000300170A0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200170A0"
+				item: { count: 1, id: "kaleidoscope_cookery:tieguanyin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001703"]
+			id: "0000000000001705"
+			rewards: [{
+				id: "0000000030017050"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017050"
+					item: { count: 1, id: "farmersdelight:cooked_rice" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017051"
+					item: { count: 1, id: "farmersdelight:fried_rice" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "000000000000170B"
+			rewards: [{
+				id: "00000000300170B0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200170B0"
+				item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001706"
+			rewards: [{
+				id: "0000000030017060"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020017060"
+				item: { count: 1, id: "kaleidoscope_cookery:stove" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "000000000000170C"
+			rewards: [{
+				id: "00000000300170C0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200170C0"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+	]
+}

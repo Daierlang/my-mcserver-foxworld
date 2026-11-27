@@ -1,0 +1,42 @@
+{
+	id: "0000000000000E04"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 8
+			id: "0000000000000E40"
+			item: {
+				count: 1
+				id: "lightmanscurrency:coin_copper"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "0000000000000E41"
+			item: {
+				count: 1
+				id: "minecraft:cake"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E42"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "0000000000000E43"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 20.0f
+		}
+	]
+}

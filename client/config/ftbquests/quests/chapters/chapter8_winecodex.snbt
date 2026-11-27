@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter8_winecodex"
+	group: ""
+	id: "00000000000000A8"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000001303"]
+			id: "0000000000001800"
+			rewards: [{
+				id: "0000000030018000"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020018000"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001807"
+			rewards: [{
+				id: "0000000030018070"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018070"
+					item: { count: 1, id: "kaleidoscope_tavern:white_lady" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018071"
+					item: { count: 1, id: "kaleidoscope_tavern:grasshopper" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018072"
+					item: { count: 1, id: "kaleidoscope_tavern:screwdriver" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018073"
+					item: { count: 1, id: "kaleidoscope_tavern:mojito" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001801"
+			rewards: [{
+				id: "0000000030018010"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018010"
+					item: { count: 1, id: "vinery:apple_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018011"
+					item: { count: 1, id: "vinery:apple_cider" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018012"
+					item: { count: 1, id: "vinery:red_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018013"
+					item: { count: 1, id: "vinery:cherry_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018014"
+					item: { count: 1, id: "vinery:mead" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018015"
+					item: { count: 1, id: "vinery:eiswein" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001808"
+			rewards: [{
+				id: "0000000030018080"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018080"
+					item: { count: 1, id: "kaleidoscope_world_liquor:maotai" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018081"
+					item: { count: 1, id: "kaleidoscope_world_liquor:lafite_1982" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018082"
+					item: { count: 1, id: "kaleidoscope_world_liquor:long_island_iced_tea" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001802"
+			rewards: [{
+				id: "0000000030018020"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018020"
+					item: { count: 1, id: "vinery:chorus_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018021"
+					item: { count: 1, id: "vinery:kelp_cider" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018022"
+					item: { count: 1, id: "vinery:aegis_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018023"
+					item: { count: 1, id: "vinery:bolvar_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018024"
+					item: { count: 1, id: "vinery:bottle_mojang_noir" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018025"
+					item: { count: 1, id: "vinery:villagers_fright" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001809"
+			rewards: [{
+				id: "0000000030018090"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018090"
+					item: { count: 1, id: "kaleidoscope_twilight:pochi_pudding" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018091"
+					item: { count: 1, id: "kaleidoscope_twilight:magic_crispy_corner" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018092"
+					item: { count: 1, id: "kaleidoscope_twilight:kita_stuffed_crisp" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018093"
+					item: { count: 1, id: "kaleidoscope_twilight:liangshan_ice_cone" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001803"
+			rewards: [{
+				id: "0000000030018030"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018030"
+					item: { count: 1, id: "vinery:chenet_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018031"
+					item: { count: 1, id: "vinery:clark_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018032"
+					item: { count: 1, id: "vinery:creepers_crush" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018033"
+					item: { count: 1, id: "vinery:cristel_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018034"
+					item: { count: 1, id: "vinery:glowing_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018035"
+					item: { count: 1, id: "vinery:jellie_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018036"
+					item: { count: 1, id: "vinery:jo_special_mixture" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018037"
+					item: { count: 1, id: "vinery:lilitu_wine" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "000000000000180A"
+			rewards: [{
+				id: "00000000300180A0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200180A0"
+					item: { count: 1, id: "smc:ice_tea" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200180A1"
+					item: { count: 1, id: "smc:friends_drink" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001804"
+			rewards: [{
+				id: "0000000030018040"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018040"
+					item: { count: 1, id: "vinery:magnetic_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018041"
+					item: { count: 1, id: "vinery:mellohi_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018042"
+					item: { count: 1, id: "vinery:noir_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018043"
+					item: { count: 1, id: "vinery:solaris_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018044"
+					item: { count: 1, id: "vinery:stal_wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018045"
+					item: { count: 1, id: "vinery:strad_wine" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000001801"
+				"0000000000001802"
+				"0000000000001803"
+				"0000000000001804"
+				"0000000000001805"
+				"0000000000001806"
+				"0000000000001807"
+				"0000000000001808"
+				"0000000000001809"
+				"000000000000180A"
+			]
+			id: "000000000000180B"
+			invisible: true
+			rewards: [
+				{
+					count: 4
+					id: "00000000300180B0"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00000000300180B1"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "00000000200180B0"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001805"
+			rewards: [{
+				id: "0000000030018050"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018050"
+					item: { count: 1, id: "kaleidoscope_tavern:wine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018051"
+					item: { count: 1, id: "kaleidoscope_tavern:whiskey" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018052"
+					item: { count: 1, id: "kaleidoscope_tavern:brandy" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018053"
+					item: { count: 1, id: "kaleidoscope_tavern:rum" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018054"
+					item: { count: 1, id: "kaleidoscope_tavern:champagne" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001800"]
+			id: "0000000000001806"
+			rewards: [{
+				id: "0000000030018060"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020018060"
+					item: { count: 1, id: "brewinandchewin:beer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018061"
+					item: { count: 1, id: "brewinandchewin:vodka" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020018062"
+					item: { count: 1, id: "brewinandchewin:rice_wine" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

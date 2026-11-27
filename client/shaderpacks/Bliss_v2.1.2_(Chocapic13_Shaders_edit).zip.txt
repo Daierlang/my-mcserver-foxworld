@@ -1,0 +1,2 @@
+#Sat Oct 31 23:41:49 CST 2026
+BorderFog=false

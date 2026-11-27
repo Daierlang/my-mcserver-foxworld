@@ -1,0 +1,9 @@
+[death_drop]
+	#Enable death drops: when a maid (tamed or wild) dies it drops the configured items
+	enabled = true
+	#Items dropped on a maid's death, as a list of item registry names (e.g. minecraft:diamond).
+	items = ["minecraft:diamond", "minecraft:gold_ingot", "minecraft:iron_ingot", "minecraft:coal", "minecraft:emerald", "minecraft:lapis_lazuli", "minecraft:redstone"]
+	#How many of each configured item are dropped
+	# Default: 1
+	# Range: 1 ~ 64
+	count = 1

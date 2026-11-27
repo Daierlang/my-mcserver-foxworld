@@ -1,0 +1,9 @@
+[same_type_repulsion]
+	#Enable the same-type repulsion mechanic (a maid that detects another maid nearby walks up to it, faces it and plays the laowupose animation + laowu2 sound)
+	enabled = true
+	#Detection range (in blocks). A maid locks onto another maid within this range.
+	# Default: 8
+	# Range: 1 ~ 64
+	detect_range = 8
+	#Whether the maid attacks the locked-on maid once every 10 seconds while repulsing
+	attack_enabled = true

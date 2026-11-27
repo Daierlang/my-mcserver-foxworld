@@ -1,0 +1,32 @@
+#内部标记：建造默认速度迁移（极速→关、x1.5→x1）是否已执行；一次性，请勿手动修改
+speedMigrated = true
+#内部标记：排班活动半径默认迁移（32→12）是否已执行；一次性，请勿手动修改
+scheduleRangeMigrated = true
+#内部标记：散步速度倍率默认迁移（0.7→0.4）是否已执行；一次性，请勿手动修改
+strollSpeedMigrated = true
+#内部标记：默认值修复迁移（把误当默认的 12 项搬回真默认）是否已执行；一次性，请勿手动修改
+defaultRepairMigrated = true
+#内部标记：自动收集默认开启迁移（挖矿/伐木 autoCollect false→true）是否已执行；一次性，请勿手动修改
+autoCollectMigrated = true
+#内部标记：扫帚接敌爬升高度默认迁移（10→15）是否已执行；一次性，请勿手动修改
+climbMigrated = true
+#内部标记：扫帚接敌爬升高度默认迁移（15→12）是否已执行；一次性，请勿手动修改
+climb12Migrated = true
+#内部标记：巡逻总开关从撞键的 broom.enable 拆到 broom.patrolEnable 是否已执行；一次性，请勿手动修改
+patrolEnableMigrated = true
+#内部标记：骑飞行载具的悬停高度语义变更迁移（离敌 15→离地 3）是否已执行；一次性，请勿手动修改
+airAltMigrated = true
+#内部标记：骑飞行载具盘旋半径默认迁移（6→4）是否已执行；一次性，请勿手动修改
+orbitRadiusMigrated = true
+#内部标记：TNT 追踪时长默认迁移（10→20）是否已执行；一次性，请勿手动修改
+tntTrack20Migrated = true
+#内部标记：矿表/木材表补标签行（默认那两对）是否已执行；一次性，请勿手动修改
+tableTaglinesMigrated = true
+#内部标记：滑翔类盘旋加高默认迁移（30→60）是否已执行；一次性，请勿手动修改
+fixedWingAlt60Migrated = true
+#内部标记：记忆长度默认值上调（64→128、3→5、200→600、600→1200）是否已执行；一次性，请勿手动修改
+memoryLengthMigrated = true
+#内部标记：营火/灵魂营火补入默认危险表是否已执行；一次性，请勿手动修改
+dangerCampfireMigrated = true
+#内部标记：营火烹饪开关的默认值迁移是否已执行；一次性，请勿手动修改
+cookCampfireMigrated = true

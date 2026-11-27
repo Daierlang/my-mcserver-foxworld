@@ -1,0 +1,23 @@
+[food_guarding]
+	#Enable the food guarding mechanic
+	enabled = true
+	#Detection range (in blocks) for nearby cakes
+	# Default: 8
+	# Range: 1 ~ 64
+	detect_range = 8
+	#Interval (in ticks) between cake detections. 600 ticks = 30 seconds
+	# Default: 600
+	# Range: 20 ~ 72000
+	detect_interval_ticks = 600
+	#Whether the maid attacks the thief only once
+	attack_once = true
+	#Whether food guarding can be triggered while the maid is sitting
+	sit_can_trigger = true
+	#Whether the sitting maid can move to attack the thief
+	sit_can_move = false
+	#Whether the sleeping maid is forced to wake up when food guarding triggers
+	sleep_force_wake = true
+	#Movement speed modifier when approaching the cake thief (walk speed)
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	move_speed = 0.6

@@ -1,0 +1,60 @@
+{
+	id: "0000000000000E01"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "0000000000000E10"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 8
+			id: "0000000000000E11"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E12"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E13"
+			item: {
+				count: 1
+				id: "lightmanscurrency:coin_iron"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E14"
+			item: {
+				count: 1
+				id: "waystones:return_scroll"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0000000000000E15"
+			item: {
+				count: 1
+				id: "minecraft:cake"
+			}
+			weight: 5.0f
+		}
+	]
+}

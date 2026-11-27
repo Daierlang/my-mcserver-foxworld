@@ -9,6 +9,42 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "0000000000001111"
+			rewards: [
+				{
+					id: "0000000030011110"
+					item: {
+						count: 1
+						id: "ftbquests:book"
+					}
+					type: "item"
+				}
+				{
+					id: "0000000030011111"
+					item: {
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0000000030011112"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000020011110"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
 			id: "0000000000001101"
 			rewards: [{
 				count: 4

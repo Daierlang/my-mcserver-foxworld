@@ -1,0 +1,7 @@
+enable_drinking = true
+# Default: 4
+# Range: 1 ~ 10
+path_finding_attempt = 4
+# Default: 300
+# Range: > 200
+work_expiration_time = 300

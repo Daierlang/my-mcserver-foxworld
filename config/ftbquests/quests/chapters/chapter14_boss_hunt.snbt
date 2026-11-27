@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter14_boss_hunt"
+	group: ""
+	id: "00000000000000AE"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001E01"
+			rewards: [{
+				id: "000000003001E010"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001E010"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001E01"]
+			id: "0000000000001E02"
+			rewards: [{
+				id: "000000003001E020"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001E020"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001E02"]
+			id: "0000000000001E03"
+			rewards: [
+				{
+					id: "000000003001E030"
+					table_id: 3586L
+					type: "random"
+				}
+				{
+					id: "000000003001E031"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "000000002001E030"
+				item: { count: 1, id: "bosses_of_mass_destruction:soul_star" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001E03"]
+			id: "0000000000001E04"
+			rewards: [{
+				id: "000000003001E040"
+				table_id: 3587L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "000000002001E040"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001E04"]
+			id: "0000000000001E05"
+			rewards: [{
+				id: "000000003001E050"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001E02"]
+			id: "0000000000001E06"
+			rewards: [{
+				id: "000000003001E060"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "000000002001E060"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001E06"]
+			id: "0000000000001E07"
+			rewards: [{
+				id: "000000003001E070"
+				table_id: 3587L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "000000002001E070"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001E05"]
+			id: "0000000000001E08"
+			rewards: [{
+				id: "000000003001E080"
+				table_id: 3587L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "000000002001E080"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+	]
+}

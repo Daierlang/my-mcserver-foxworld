@@ -1,0 +1,79 @@
+{
+	id: "0000000000000E02"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "0000000000000E20"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 16
+			id: "0000000000000E21"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E22"
+			item: {
+				count: 1
+				id: "minecraft:cake"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 3
+			id: "0000000000000E23"
+			item: {
+				count: 1
+				id: "waystones:return_scroll"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E24"
+			item: {
+				count: 1
+				id: "lightmanscurrency:coin_gold"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 8
+			id: "0000000000000E25"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "0000000000000E26"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 3
+			id: "0000000000000E27"
+			item: {
+				count: 1
+				id: "touhou_little_maid:power_point"
+			}
+			weight: 7.0f
+		}
+	]
+}

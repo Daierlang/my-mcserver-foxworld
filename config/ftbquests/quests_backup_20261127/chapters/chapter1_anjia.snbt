@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter1_anjia"
+	group: ""
+	id: "00000000000000A1"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001101"
+			rewards: [{
+				count: 4
+				id: "0000000000003111"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0000000000002111"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001109"
+			optional: true
+			rewards: [{
+				id: "0000000030011090"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000020011090"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001101"]
+			id: "0000000000001102"
+			rewards: [{
+				count: 3
+				id: "0000000000003121"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000000002121"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000000002122"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "000000000000110A"
+			optional: true
+			rewards: [{
+				id: "00000000300110A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "00000000200110A0"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001103"
+			rewards: [{
+				id: "0000000000003131"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000000002131"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0000000000002132"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "000000000000110B"
+			optional: true
+			rewards: [{
+				id: "00000000300110B0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "00000000200110B0"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001102"]
+			id: "0000000000001104"
+			rewards: [{
+				count: 3
+				id: "0000000000003141"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000002141"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001103"]
+			id: "0000000000001105"
+			rewards: [{
+				id: "0000000000003151"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "0000000000002151"
+				item: { count: 1, id: "kaleidoscope_tavern:grape" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001104"]
+			id: "000000000000110C"
+			rewards: [{
+				id: "00000000300110C0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200110C0"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001103"]
+			id: "000000000000110E"
+			rewards: [{
+				id: "00000000300110E0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200110E0"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000110C"]
+			id: "000000000000110D"
+			rewards: [{
+				id: "00000000300110D0"
+				table_id: 3585L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200110D0"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000110E"]
+			id: "000000000000110F"
+			rewards: [{
+				count: 2
+				id: "00000000300110F0"
+				item: {
+					count: 1
+					id: "waystones:return_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "00000000200110F0"
+				type: "dimension"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000110E"]
+			id: "0000000000001110"
+			rewards: [{
+				id: "0000000030011100"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020011100"
+				item: { count: 1, id: "minecraft:brewing_stand" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+	]
+}

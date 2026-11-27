@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter6_explore"
+	group: ""
+	id: "00000000000000A6"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000001601"
+			rewards: [{
+				id: "0000000000003611"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0000000000002611"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "0000000000001609"
+			rewards: [{
+				id: "0000000030016090"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0000000020016090"
+				structure: "#nova_structures:taverns"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001602"]
+			id: "0000000000001610"
+			rewards: [{
+				id: "0000000030016100"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:skylands_summer"
+				id: "0000000020016100"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "0000000000001602"
+			rewards: [{
+				id: "0000000000003621"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0000000000002621"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "000000000000160A"
+			rewards: [{
+				id: "00000000300160A0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200160A0"
+				structure: "nova_structures:firewatch_tower_birch"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001602"]
+			id: "0000000000001611"
+			rewards: [{
+				id: "0000000030016110"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:volcanic_crater"
+				id: "0000000020016110"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001602"]
+			id: "0000000000001603"
+			rewards: [{
+				count: 8
+				id: "0000000000003631"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000002631"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "000000000000160B"
+			rewards: [{
+				id: "00000000300160B0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200160B0"
+				structure: "nova_structures:conduit_ruin"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001602"]
+			id: "0000000000001612"
+			rewards: [{
+				id: "0000000030016120"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:amethyst_canyon"
+				id: "0000000020016120"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001603"]
+			id: "0000000000001604"
+			rewards: [
+				{
+					id: "0000000000003641"
+					table_id: 3585L
+					type: "random"
+				}
+				{
+					id: "0000000000003642"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0000000000002641"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "000000000000160C"
+			rewards: [{
+				id: "00000000300160C0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200160C0"
+				structure: "nova_structures:stray_fort"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001602"]
+			id: "0000000000001613"
+			rewards: [{
+				id: "0000000030016130"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "terralith:lavender_valley"
+				id: "0000000020016130"
+				type: "biome"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "000000000000160D"
+			rewards: [{
+				id: "00000000300160D0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200160D0"
+				structure: "nova_structures:illager_manor"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "0000000000001614"
+			rewards: [{
+				id: "0000000030016140"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0000000020016140"
+					structure: "nova_structures:village_birch"
+					type: "structure"
+				}
+				{
+					id: "0000000020016141"
+					structure: "nova_structures:village_jungle"
+					type: "structure"
+				}
+				{
+					id: "0000000020016142"
+					structure: "nova_structures:village_swamp"
+					type: "structure"
+				}
+				{
+					id: "0000000020016143"
+					structure: "minecraft:village_taiga"
+					type: "structure"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "000000000000160E"
+			rewards: [{
+				id: "00000000300160E0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200160E0"
+				structure: "nova_structures:witch_villa"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0000000000001609"
+				"000000000000160A"
+				"000000000000160B"
+				"000000000000160C"
+				"000000000000160D"
+				"000000000000160E"
+				"000000000000160F"
+				"0000000000001610"
+				"0000000000001611"
+				"0000000000001612"
+				"0000000000001613"
+				"0000000000001614"
+			]
+			id: "0000000000001615"
+			invisible: true
+			rewards: [
+				{
+					id: "0000000030016150"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "0000000030016151"
+					table_id: 3587L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0000000020016150"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "000000000000160F"
+			rewards: [{
+				id: "00000000300160F0"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00000000200160F0"
+				structure: "nova_structures:undead_crypt"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000001601"]
+			id: "0000000000001605"
+			rewards: [{
+				id: "0000000000003651"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0000000000002651"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+	]
+}
