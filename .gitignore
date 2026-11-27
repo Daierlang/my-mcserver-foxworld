@@ -44,3 +44,7 @@ client/libs/
 # 本地一键打包产物
 /dist/
 
+# FTB Quests 备份目录（任务书 v5 改造时自动生成，不随仓库分发）
+config/ftbquests/quests_backup_*/
+
+

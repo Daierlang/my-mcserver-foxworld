@@ -149,3 +149,23 @@ python -m unittest discover --start-directory tests --pattern "test_ci_validate.
 
 `client/` 保存客户端配置、资源包、光影、设置模板与 `client/client-mods-manifest.txt`（mod 清单，已入库）。`scripts/pack-client.ps1` 按清单从本机版本目录复制现成 jar，缺失项从 Modrinth 下载并校验 SHA1；来源为「手动下载」且本地缺失的 mod 会警告并跳过，发布前维护者必须确认没有缺项，并核对 JAR 与清单哈希。
 
+### 协作：改客户端内容的标准流程
+
+**场景 A：加 mod**
+
+1. 把 jar 放到任意位置，运行 `powershell -File scripts\add-client-mod.ps1 -Jar <jar 路径>`。脚本自动算 SHA1 并经 Modrinth API 反查来源：
+   - Modrinth 上架的 mod → manifest 追加 `Modrinth: <slug>` 行；**jar 本体不入 Git**，别人打包时按 SHA1 自动下载。
+   - 非 Modrinth 的 mod → jar 自动复制到 `client\manual-mods\`（随仓库分发），manifest 追加「手动下载」行。
+2. 自己执行 `git add` / `git commit` / `git push`（脚本结尾会打印具体命令提示）。
+3. manifest 中已有同名条目时脚本会提示并退出，不重复登记。
+
+**场景 B：改共享配置**
+
+直接修改 `client\config\`（或 `resourcepacks\`、`shaderpacks\`、`options.txt.template`）下的对应文件，然后 `git add` / `git commit` / `git push`。这些文件整体随仓库分发，打包时整目录复制进 zip。
+
+**场景 C：出 zip**
+
+双击 `scripts\pack-client.bat`（或命令行运行 `powershell -File scripts\pack-client.ps1`，两者等价），产物为 `dist\酒狐客户端_<日期>.zip`，可直接发给不便用 git 的朋友（注意 `dist\` 不入库）。打包顺序：PCL 版本目录现成 jar → `client\manual-mods\` → Modrinth 按 SHA1 下载。
+
+拉取更新后（`git pull`），重跑一次 `pack-client.ps1` 即得最新客户端包。
+
