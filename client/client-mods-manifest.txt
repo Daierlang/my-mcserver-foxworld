@@ -1,0 +1,133 @@
+# 酒狐客户端 mod 清单（自动生成，勿手改条目格式）
+# 格式：文件名 | SHA1 | 来源（Modrinth: slug 或 手动下载）
+# regen: 由打包脚本/维护流程重新生成，与实际 mods 目录保持一致
+# 共 128 个 mod
+
+AdvancedBackups-neoforge-1.21-3.7.1.jar | 3d328e772b19d6d12f4b075cca2120bbcca2b09d | Modrinth: advanced-backups
+AdvancementPlaques-1.21.1-neoforge-1.6.8.jar | 829d33e71b30e9158d772f5963bb6020f6026d78 | Modrinth: advancement-plaques
+AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar | 9762244f9c116c85a6af3469da686650ed455bb1 | Modrinth: ambientsounds
+BOMD-NeoForge-1.21-1.3.3.jar | 446ff63afb858ad49149d24b72541739de83d38d | Modrinth: bosses-of-mass-destruction-forge
+BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar | 870521cfaa1a4cb6c830e2409e8b9e4cf179aff2 | Modrinth: better-advancements
+BetterF3-11.0.3-NeoForge-1.21.1.jar | 8fa17df26d3650416bc124be7a264bc1566a3b26 | Modrinth: betterf3
+BetterPingDisplay-1.21.1-1.1.jar | 66702459c2a87b9943af3347c4df1ae6ff14c897 | Modrinth: better-ping-display
+BrewinAndChewin-neoforge-4.5.0+1.21.1.jar | bc86c776779b16dec386f4b667ff46d9e2ecb88d | Modrinth: brewin-and-chewin
+CerbonsAPI-NeoForge-1.21-1.3.0.jar | 3f0d3eed4633d9ef3a713de4b39ee4e683aa9389 | Modrinth: cerbons-api
+Controlling-neoforge-1.21.1-19.0.5.jar | 8a34424fc1428778be2fdbfa4da67b21b70bcbfe | Modrinth: controlling
+CraftPresence-2.7.1+1.21.1-neoforge.jar | a0629a26ec41099fad1c0f6143d15b5b2c4f3ab2 | Modrinth: craftpresence
+CreativeCore_NEOFORGE_v2.13.56_mc1.21.1.jar | 820f9d39efac80b25feb72639dc35e21c748fe71 | Modrinth: creativecore
+EnhancedVisuals_NEOFORGE_v1.8.35_mc1.21.1.jar | 8e4afa634e09d3ebee4bde9120dfc5137256ce1e | Modrinth: enhancedvisuals
+Falling Leaves-1.0.jar | 44900fc3f297669ddc432037b4e401aeb4409d23 | Modrinth: falling-leaves
+FarmersDelight-1.21.1-1.3.4.jar | 27675ddfcb8cc37e6ea1ab6c15051c7949d94657 | Modrinth: farmers-delight
+Iceberg-1.21.1-neoforge-1.3.2.jar | f6014d198be9503573cd9cb41cc789d282768ad8 | Modrinth: iceberg
+ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar | f991166f7c82b493481c876e3c83c9fac4159671 | Modrinth: immediatelyfast
+InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar | b09d7c0820c233ea34af54d0a3ab7ed510b32dcc | Modrinth: inventory-profiles-next
+Jade-1.21.1-NeoForge-15.10.6.jar | 88ee316e68900080b017f60c12162e2731924cf8 | Modrinth: jade
+JustEnoughResources-NeoForge-1.21.1-1.6.0.66.jar | 731f5673dcaaa861785c2e4596e6982503c7fcba | Modrinth: just-enough-resources-jer
+KryptonFoxified-0.1.0+mc1.21.jar | b6912442dfb47b2cbcadb4085608636fced68af9 | Modrinth: krypton-foxified
+LegendaryTooltips-1.21.1-neoforge-1.5.5.jar | e7d3b66f3afe115c709749739f26f807ca8e827b | Modrinth: legendary-tooltips
+Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar | 075a0d5f30d1228f998e50c79e703bbd3037a836 | Modrinth: mod-menu-neoforge-edition
+Neat-1.21-47-NEOFORGE.jar | 7744c5b02427572f7154d6f851507544fd9404d2 | Modrinth: neat
+NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar | 9edfc7861277ff661141304dc8216f83eacdd9af | Modrinth: no-chat-reports
+PatPat-1.3.1+1.21.1+neoforge.jar | 72d13161b1964e86fb1626ba3301c19688c4e61b | Modrinth: patpat
+PresenceFootsteps-1.21.1-1.12.0-beta.1-1.21NeoForge.jar | 71bd6de2b01441d92be1e109879b76b7750bd787 | Modrinth: pf-neoforge
+Prism-1.21.1-neoforge-1.0.11.jar | 1ae6f7be2ba8f963344dbf27e552920a7bc7a35f | Modrinth: prism-lib
+ScalableLux-neoforge-0.3.0-alpha.0.8-all.jar | 27d602b2aa6b371ceeb6af9b967f95bafb7d51a9 | Modrinth: scalablelux
+Searchables-neoforge-1.21.1-1.0.2.jar | 5b8a0b43a474c066371b2e16f9bfb88622552a74 | Modrinth: searchables
+ShoulderSurfing-NeoForge-1.21.1-5.3.1.jar | 96d958fbd14713a3e50905b64d59d9fe31a26c63 | Modrinth: shoulder-surfing-reloaded
+Terralith_1.21.1_v2.6.2_Neoforge.jar | d4a9fe71b841f70edfb4b280f9bf5c58e4a28224 | Modrinth: terralith
+Touhou.Little.Maid-Promaid-1.21.1-neoforge-1.3.4.1.jar | 1e78a83dc97f4aea250d2264a3c4ede641b5ee29 | 手动下载
+TravelersTitles-1.21.1-NeoForge-5.1.3.jar | 166cba4d367c6dd103d1d5dcab7a31174bec799e | Modrinth: travelers-titles
+UniLib-1.2.1+1.21.1-neoforge.jar | 4833a5685125ece15fed1108a5a7064527dc9d69 | Modrinth: unilib
+YungsApi-1.21.1-NeoForge-5.1.9.jar | 2c4b740c8ad27bbcb2a21b85b64f011b809aed91 | Modrinth: yungs-api
+[帕秋莉手册] Patchouli-1.21.1-93-NEOFORGE.jar | 5413bb9b8fc35ebe46b06b48bf9afafbd8471140 | Modrinth: patchouli
+appleskin-neoforge-mc1.21-3.0.9.jar | 81cf0e668f991f83ac8820c386fbd6c9c3602246 | Modrinth: appleskin
+architectury-13.0.12-neoforge.jar | 646dace27624ac08ad8d229fe15f6601a8b7fbb2 | Modrinth: architectury-api
+balm-neoforge-1.21.1-21.0.67.jar | 68c95ca8a6a87d26199d43ff6978bc94949329e3 | Modrinth: balm
+betterf1-NeoForge-1.1-1.21.5.jar | 43169a55c38ad29f611f08145d41250abd1cc302 | Modrinth: better-f1-reborn
+betterstats-3.13.9+neoforge-1.21.1-rev.1.jar | 64e72552383ab58a36f081e22ed9f56672333307 | Modrinth: better-stats
+bettervillage-neoforge-1.21.1-3.3.1.jar | 6ad2a37bfea056ce924c62fea6e0a583723e7f4c | Modrinth: better-village
+blur-neoforge-6.3.1+1.21.1.jar | 5e70c05c8233e72a0a5647c72355b46b11711029 | Modrinth: blur-plus
+bookshelf-neoforge-1.21.1-21.1.81.jar | efc4cda6da4dd879f24d057ed0a6413764c9ba40 | Modrinth: bookshelf-lib
+chat_heads-0.15.7-neoforge-1.21.jar | 536b2af675229d2a33eb4cf5afbe7148a62d5f3f | Modrinth: chat-heads
+civilian_aviation-1.0.3-1.21.1-neoforge.jar | d18f64a0b3c03b3f50a1c98ba659f2b885c92bd4 | Modrinth: civilian-aviation
+cloth-config-15.0.140-neoforge.jar | c3e5733ba4503b102589a026000fd5ce0212f6f2 | Modrinth: cloth-config
+common-networking-neoforge-1.0.21-1.21.1.jar | f55722a4278997e7ef278f4390a31e848f7beea7 | Modrinth: common-network
+corpse-neoforge-1.21.1-1.1.22.jar | 0d73e082e4d5c0f185aa8030bcefb68c259d1107 | Modrinth: corpse
+craftingtweaks-neoforge-1.21.1-21.1.11.jar | b6252039445978a742f439fc398f2a198b86bd4e | Modrinth: crafting-tweaks
+curios-neoforge-9.6.1+1.21.1.jar | 0655348ff267e114dff016332ea7ed4527b43284 | Modrinth: curios
+dreamdisplays-neoforge-1.21.1-1.10.10.jar | 605505fc3d1039d16bb69f6558647c6d23bf1955 | Modrinth: dreamdisplays
+dungeons-and-taverns-v4.4.4.jar | 249a5bdd0e8622b8a11f88758e6f5fd5fda036a3 | Modrinth: dungeons-and-taverns
+dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar | 35b17e95b2b65930116ccc83e0cc358ac1bfcf9e | Modrinth: dynamic-fps
+enchdesc-neoforge-1.21.1-21.1.11.jar | 4d453df785ac21e0e7389cba949f4fa460c3e267 | Modrinth: enchantment-descriptions
+entity_model_features-3.3.12-1.21-neoforge.jar | e9a163b77243cdfcb0ad3d698dc48a60cb8710e9 | Modrinth: entity-model-features
+entity_texture_features-7.2.7-1.21-neoforge.jar | 5fd97ee3a0a3bb8c223f26f196bdb5c9e9841923 | Modrinth: entitytexturefeatures
+entityculling-neoforge-1.12.2-mc1.21.1.jar | c99da414f58cf75b97a9e6f0f688a12e3b6ae01b | Modrinth: entityculling
+feastwineallgone-1.0.2-1.21.1.jar | b4206b0de49592e54fe9797a66e08213436d20d8 | 手动下载
+ferritecore-7.0.3-neoforge.jar | 9563692efb708b6b568df27a01ec52f6311928ef | Modrinth: ferrite-core
+forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar | 1fe1ca9f440cd30c86186e42505694b70ececc11 | Modrinth: forgified-fabric-api
+fox_trot_brew-1.1.1-mc1.21.1-neoforge.jar | f1ed1d89d39aff5d2546954b175f53f66940bcbb | Modrinth: fox-trot-brew
+freecam-neoforge-1.3.0+mc1.21.jar | 428eee42f39e6f4c36a3fed2fc127ee9cbd5fa0c | Modrinth: freecam
+ftb-library-neoforge-2101.1.40.jar | e5f24391a447754dbc6d37d866981f47d67bb664 | 手动下载
+ftb-quests-neoforge-2101.1.39.jar | d5a0de6ad0517fd843ea830b49b06287c0686906 | 手动下载
+ftb-teams-neoforge-2101.1.12.jar | 9c831fbbbccf2178827c3ccf278b2f2a0ce57306 | 手动下载
+ftb-xmod-compat-neoforge-21.1.14.jar | 8dc3db7b8aa93eabac54237c5d53bfea15f92ba5 | 手动下载
+fwa+1.21.1-neoforge-1.3.10.jar | cce4dcc01733228ca300aa0a4243caee8e1ee15a | Modrinth: fwa
+fzzy_config-0.7.7+fix1+1.21+neoforge.jar | aa04a2ddbce2f50b21d667d2f3e589f9e043e472 | Modrinth: fzzy-config
+geckolib-neoforge-1.21.1-4.9.4.jar | 75a73fab57b6bdc667a0d645922c2c5d6b9b77df | Modrinth: geckolib
+grassiergrass-neoforge-1.4.5+mc1.21.1.jar | 679fa7d59ef34fc9a28534d6d9f2b227c9033719 | Modrinth: grassier-grass
+immersive_aircraft-neoforge-1.7.0+1.21.1.jar | 5cf33cd634a88ec5728668bf13421645f11fbbe4 | Modrinth: immersive-aircraft
+iris-neoforge-1.8.14-beta.1+mc1.21.1.jar | 1bd129cf7bce65d6b1c0543045f0620c98a0f885 | Modrinth: iris
+irons_lib-1.21.1-2.4.0.jar | de1eda4fd210ac622ef8df8e3245366ca0da5491 | Modrinth: irons-lib
+irons_spellbooks-1.21.1-3.16.4.jar | 6a3758ab1861176cebe5fb0b3b536a0b3f678213 | Modrinth: irons-spells-n-spellbooks
+jei-1.21.1-neoforge-19.76.1.481.jar | 5049346ee5d60346dab7546638601a884faa167b | Modrinth: jei
+journeymap-neoforge-1.21.1-6.0.10.jar | d2d9da5189ee0af363ae3e0a6e3438c6d816d363 | Modrinth: journeymap
+kaleidoscope_world_liquor-1.2.0-neoforge+1.21.1.jar | 74091aef706b7c0d454abe1fc3f162d6731b8aa6 | Modrinth: kaleidoscope-world-liquor
+kaleidoscopecookery-1.7.0-neoforge+mc1.21.1.jar | e2ae2226f5fc0e79d48448ee6d77eeaf8714deb3 | Modrinth: kaleidoscope-cookery
+kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar | bf026cb97921749adf6155181d2f9639d37a7261 | Modrinth: kaleidoscopetavern
+kotlinforforge-5.9.0-all.jar | 8ad166a365c1917fceca3533cdcb74e5149f200c | Modrinth: kotlin-for-forge
+lambdynamiclights-4.8.11+1.21.1.jar | 7b5afc75a094b4e8a7118f9856eec959b10f2422 | Modrinth: lambdynamiclights
+laowu_maid_2.0.0.jar | 816d3c220673b46f39ce37948a4767a0418767f8 | 手动下载
+letsdo-vinery-neoforge-1.5.6.jar | 2e2866ba9abdfff57509b291b76567054e1d5065 | Modrinth: lets-do-vinery
+libIPN-neoforge-1.21.1-6.6.3.jar | baab9e8cae3d2b77b5e172b5694e465ee9f30d4a | Modrinth: libipn
+libjf-3.17.7+forge.jar | 0c7fb65f2e0d2c9e9888381df31e191d6a0e39f5 | Modrinth: libjf
+libraryferret-neoforge-1.21.1-4.0.0.jar | 9f750661168a599bdd7b2928e6588768d6105bfe | Modrinth: library-ferret
+lightmanscurrency-1.21-2.3.0.6.jar | bb16d428902b6d83c5203e9cf50984ef4b9f769a | Modrinth: lightmans-currency
+lithium-neoforge-0.15.4+mc1.21.1.jar | 97212e45c963730bbfc7c44780df99317814c21b | Modrinth: lithium
+lithostitched-1.8.1-neoforge-21.1.jar | 88cdded5b617e19b4d2676948b5550699de23578 | Modrinth: lithostitched
+maidtavern-1.2.0.jar | ac621bbb7d0750aa374d06f0ab0310ca7bd61013 | Modrinth: maid-tavern
+maiduuidfix-1.0.0.jar | 8817a09faeb574f2c5a62679db7380656f03b692 | 手动下载
+mezz_config-1.21.1-neoforge-0.7.1-standalone.jar | 2382e29c9a0f44d4f4b9baa4cb3f6a356e048e60 | Modrinth: mezzconfig
+midnightlib-neoforge-1.10.0+1.21.1.jar | 540612caebec8a02a8774488e03982488b6bbba9 | Modrinth: midnightlib
+modernfix-neoforge-5.27.27+mc1.21.1.jar | 52c008540c7dc2cc451f7e939a885d7462c9ae72 | Modrinth: modernfix
+moreculling-neoforge-1.21.1-1.0.11.jar | ea5ea2c826af8d8d4682d6cd867acb8e8ea983e7 | Modrinth: moreculling
+notenoughanimations-neoforge-1.12.7-mc1.21.1.jar | 137a878ed276a3dfab2715df1864d14f60bd3237 | Modrinth: not-enough-animations
+open-parties-and-claims-neoforge-1.21.1-0.33.0.jar | 6075cf36ac8d70bd1fd870e0eb9ac84685388df7 | Modrinth: open-parties-and-claims
+particlerain-4.0.4+1.21.1-neoforge.jar | 0a8c52eea34e3bf9edcc7b2b03d1f8a100cb71be | Modrinth: particle-rain
+player-animation-lib-forge-2.0.4+1.21.1.jar | 05be8ddcc78532b9a5520c718edc6c971cd0057c | Modrinth: playeranimator
+prickle-neoforge-1.21.1-21.1.11.jar | 5174059ecf97340a0de5ef211b938de26c4eaa36 | Modrinth: prickle
+punchy-3.2b-neoforge-1.21.1.jar | a334fcb563a4a6a283305669ba5c9e8fbc7f6764 | Modrinth: punchy-fpa
+reeses-sodium-options-neoforge-2.2.6+mc1.21.1.jar | 2222aa3ad9aa9688b63f7640a6015467c06691c1 | Modrinth: reeses-sodium-options
+respackopts-4.14.0+1.21.1.forge.4.jar | 0ba3779fc9e456d81dc96dca762ec74d336e317f | Modrinth: respackopts
+roxy-1.21.1-NeoForge-0.4.2.1.jar | 708a946046f3a95154166b87c4f08c576bf216fb | Modrinth: roxy
+seeu-neoforge-1.21.1-0.9.6.jar | 8a3aa03579982dbfce738edacf36d1d11d91fcfe | Modrinth: seeu
+shulkerboxtooltip-neoforge-5.1.9+1.21.1.jar | bddbccd689529f7f7ab04479e62c5e09b0be6be5 | Modrinth: shulkerboxtooltip
+skinlayers3d-neoforge-1.11.4-mc1.21.1.jar | d4864fac231ff3d360e08a82f06553c3f76de8a6 | Modrinth: 3dskinlayers
+snassets_particles-1.0.1.jar | 39d5fedd9a921e71b1e1654065a080eece50a7ab | Modrinth: snassets-library-particles
+sodium-extra-neoforge-0.9.5+mc1.21.1.jar | 6ca433df0ad08ce8413582e75dcae7619414a068 | Modrinth: sodium-extra
+sodium-neoforge-0.8.13+mc1.21.1.jar | 1757289be21ed18db5b0d90703fa3db1b2de5693 | Modrinth: sodium
+sodium-shadowy-path-blocks-neoforge-4.1.0.jar | 315891dcf8459a53fe263d985073bef619c360d0 | Modrinth: sodium-shadowy-path-blocks
+solmaid-1.0.1.jar | f5fd277f6550c0fcf6d44d7f2e67cdd479b42f32 | Modrinth: spice-of-life-maid
+sound-physics-remastered-neoforge-1.21.1-1.5.2.jar | f1903e867a71cbdc3078caf957372b9959482cfb | Modrinth: sound-physics-remastered
+spark-1.10.124-neoforge.jar | 9430cc2ab64ff89d698be593769fb9f9ee4efae6 | Modrinth: spark
+swinginglanterns-neoforge-1.21.1-2.1.1.jar | dbb6e12103a2b0a0b77b21abe61e0055eabd1995 | Modrinth: swinging-lanterns
+tameablefoxes-2.0.6-neoforge-1.21.jar | 960bbd6c73215f0cf001b9052dbca32a016efd3b | Modrinth: tameable-foxes
+tcdcommons-3.12.8+neoforge-1.21.1-rev.1.jar | e7e47f3a4eb036179e1ccc618f3221daa0774e88 | Modrinth: tcdcommons
+touhou-maid-kitsunes-vintage-1.21.1-neoforge-0.1.0.jar | 7bfa0f87d16dd905389e047aa79297abd7ad8044 | 手动下载
+touhou_little_maid_spell-1.21.1-1.9.1-neoforge.jar | 1303a2791650f25d0df839c64b3fbd72f701bcd3 | Modrinth: touhou-little-maid-spell
+touhoulittlemaid-1.5.3-neoforge+mc1.21.1.jar | f96507810deaa2ffd8c3bd86a79d6ccbd56ca32e | Modrinth: touhou-little-maid
+voicechat-neoforge-1.21.1-2.6.27.jar | 8aded3a22614a8e1641973623e7817dccea513fa | Modrinth: simple-voice-chat
+voxy-0.2.16-beta+1.21.11.jar | 280a55279e0860d29146d908cd8a0246a12e2537 | Modrinth: voxy
+waystones-neoforge-1.21.1-21.1.47.jar | 51c3390c2555416979905f9d1b05ebc1a4de29c8 | Modrinth: waystones
+windy-1.1.1+1.21-neoforge.jar | 8af1c26a4873d9deb3ca670676dbd01ebd3391fb | Modrinth: windy
+yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar | fe270c9f6e0a8142cf316944087f5109cef08bbb | Modrinth: yacl
+zz-Universal_Mod_Localizer_2.0.3.jar | ebd39ad8f9239e8e60813d3a685b92955b1b307f | Modrinth: universal_mod_localizer
