@@ -348,5 +348,118 @@
 			x: 21.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0000000000001613"]
+			id: "0000000000001616"
+			rewards: [{
+				count: 2
+				id: "0000000030016160"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "terralith:sakura_grove"
+					id: "0000000020016160"
+					type: "biome"
+				}
+				{
+					biome: "terralith:moonlight_grove"
+					id: "0000000020016161"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001616"]
+			id: "0000000000001617"
+			rewards: [{
+				count: 2
+				id: "0000000030016170"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "terralith:emerald_peaks"
+					id: "0000000020016170"
+					type: "biome"
+				}
+				{
+					biome: "terralith:white_cliffs"
+					id: "0000000020016171"
+					type: "biome"
+				}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001617"]
+			id: "0000000000001618"
+			rewards: [{
+				id: "0000000030016180"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "terralith:glacial_chasm"
+					id: "0000000020016180"
+					type: "biome"
+				}
+				{
+					biome: "terralith:mirage_isles"
+					id: "0000000020016181"
+					type: "biome"
+				}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001604"]
+			id: "0000000000001619"
+			rewards: [{
+				id: "0000000030016190"
+				table_id: 3587L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0000000020016190"
+					structure: "nova_structures:end_castle"
+					type: "structure"
+				}
+				{
+					id: "0000000020016191"
+					structure: "nova_structures:end_lighthouse"
+					type: "structure"
+				}
+				{
+					id: "0000000020016192"
+					structure: "nova_structures:end_ship"
+					type: "structure"
+				}
+				{
+					id: "0000000020016193"
+					structure: "nova_structures:trident_trial_monument"
+					type: "structure"
+				}
+			]
+			x: 9.0d
+			y: 9.0d
+		}
 	]
 }

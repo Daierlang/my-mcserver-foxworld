@@ -154,5 +154,131 @@
 			x: 12.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["0000000000001403"]
+			id: "000000000000140C"
+			rewards: [{
+				count: 2
+				id: "00000000300140C0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200140C0"
+					item: { components: { "lightmanscurrency:atm_card_data": { Locked: 0b, Validation: -1 } }, count: 1, id: "lightmanscurrency:atm_card" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200140C1"
+					item: { count: 1, id: "lightmanscurrency:portable_atm" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200140C2"
+					item: { count: 1, id: "lightmanscurrency:piggy_bank" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000140C"]
+			id: "000000000000140D"
+			rewards: [{
+				count: 8
+				id: "00000000300140D0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200140D0"
+				item: { count: 1, id: "lightmanscurrency:slot_machine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000140C"]
+			id: "000000000000140E"
+			rewards: [{
+				count: 8
+				id: "00000000300140E0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "00000000200140E0"
+					item: { count: 1, id: "lightmanscurrency:ticket" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00000000200140E1"
+					item: { count: 1, id: "lightmanscurrency:ticket_kiosk" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000140C"]
+			id: "000000000000140F"
+			rewards: [{
+				count: 2
+				id: "00000000300140F0"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00000000200140F0"
+				item: { count: 1, id: "lightmanscurrency:auction_stand_oak" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000140F"]
+			id: "0000000000001410"
+			rewards: [{
+				id: "0000000030014100"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020014100"
+				item: { count: 1, id: "lightmanscurrency:paygate" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
 	]
 }

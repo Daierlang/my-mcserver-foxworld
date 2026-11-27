@@ -326,5 +326,245 @@
 			x: 15.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["0000000000001702"]
+			id: "0000000000001710"
+			rewards: [{
+				id: "0000000030017100"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017100"
+					item: { count: 1, id: "kaleidoscope_cookery:dongpo_pork" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017101"
+					item: { count: 1, id: "kaleidoscope_cookery:donkey_burger" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001710"]
+			id: "0000000000001711"
+			rewards: [{
+				id: "0000000030017110"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017110"
+					item: { count: 1, id: "kaleidoscope_cookery:four_joy_meatball_soup" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017111"
+					item: { count: 1, id: "kaleidoscope_cookery:hot_dry_noodles" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001711"]
+			id: "0000000000001712"
+			rewards: [{
+				id: "0000000030017120"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017120"
+					item: { count: 1, id: "kaleidoscope_cookery:laba_congee" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017121"
+					item: { count: 1, id: "kaleidoscope_cookery:dumpling" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001709"]
+			id: "0000000000001713"
+			rewards: [{
+				count: 8
+				id: "0000000030017130"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0000000020017130"
+				item: { count: 1, id: "kaleidoscope_cookery:tea_egg" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["000000000000170A"]
+			id: "0000000000001714"
+			rewards: [{
+				id: "0000000030017140"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017140"
+					item: { count: 1, id: "kaleidoscope_cookery:biluochun" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017141"
+					item: { count: 1, id: "kaleidoscope_cookery:oolong" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017142"
+					item: { count: 1, id: "kaleidoscope_cookery:flower_tea" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017143"
+					item: { count: 1, id: "kaleidoscope_cookery:barley_tea" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001714"]
+			id: "0000000000001715"
+			rewards: [{
+				count: 2
+				id: "0000000030017150"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017150"
+					item: { count: 1, id: "kaleidoscope_cookery:butter_tea" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017151"
+					item: { count: 1, id: "kaleidoscope_cookery:clay_pot_milk_tea" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017152"
+					item: { count: 1, id: "kaleidoscope_cookery:mystery_tea" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "0000000000001716"
+			rewards: [{
+				id: "0000000030017160"
+				table_id: 3586L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017160"
+					item: { count: 1, id: "kaleidoscope_cookery:steamer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017161"
+					item: { count: 1, id: "kaleidoscope_cookery:millstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017162"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000001706"]
+			id: "0000000000001717"
+			rewards: [{
+				count: 8
+				id: "0000000030017170"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0000000020017170"
+					item: { count: 1, id: "kaleidoscope_cookery:dark_cuisine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0000000020017171"
+					item: { count: 1, id: "kaleidoscope_cookery:suspicious_stir_fry" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 9.0d
+		}
 	]
 }
