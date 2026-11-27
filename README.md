@@ -119,6 +119,8 @@ python -m unittest discover --start-directory tests --pattern "test_ci_validate.
 
 ## 协作者操作流程
 
+任务认领方式、状态定义和迁移到 GitHub Issues 的规则见 [协作任务清单.md](./协作任务清单.md)。
+
 ### 获取并启动客户端
 
 1. 向维护者获取当前确认可用的客户端整合包 ZIP（可由维护者用 `scripts/pack-client.ps1` 打包生成，或自建流水线发布）。
